@@ -4,7 +4,7 @@
 #include "MainWindow.h"
 
 
-b2Vec2 gravity(.0f, 10.0f);
+b2Vec2 gravity(-.2f, 10.0f);
 b2World world(gravity);
 
 int main(int argc, char* argv[]) {
