@@ -18,6 +18,8 @@ public:
     MainWindow(b2Body* pBody, b2World* pWorld) : world(pWorld) {
         setupUi(this);
         glWidget->setBody(pBody);
+        glWidget->setWorld(pWorld);
+        world->SetDebugDraw(glWidget);
         show();
         QObject::connect(&timer, SIGNAL(timeout()), this, SLOT(tick()));
         timer.start(1);
