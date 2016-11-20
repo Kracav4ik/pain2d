@@ -22,12 +22,14 @@ set(EXE_SOURCES
         src/main.ui
         src/MainWindow.cpp
         src/MainWindow.h
+        src/GLOutput.cpp
+        src/GLOutput.h
         )
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
 
 add_subdirectory(libs/Box2D)
-include_directories(libs libs/Box2D)
+include_directories(src libs libs/Box2D)
 
 add_executable(${EXE_NAME} ${EXE_SOURCES})
 
