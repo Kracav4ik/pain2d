@@ -21,15 +21,108 @@
       <sourceFolder url="file://$MODULE_DIR$/src/GLOutput.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/MainWindow.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Rope/b2Rope.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Rope/b2Rope.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2GrowableStack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2Math.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2BlockAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2StackAllocator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2Settings.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2Math.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2Timer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2Draw.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2Timer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2Draw.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2StackAllocator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2BlockAllocator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Common/b2Settings.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2Fixture.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2Contact.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2ContactSolver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2CircleContact.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2ChainAndPolygonContact.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2PolygonContact.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2ChainAndCircleContact.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2CircleContact.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2Contact.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2ContactSolver.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2PolygonContact.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2Body.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2World.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2World.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2Body.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2WorldCallbacks.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2RopeJoint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2MouseJoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2WheelJoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2MouseJoint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2FrictionJoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2DistanceJoint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2FrictionJoint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2MotorJoint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2GearJoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2WheelJoint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2GearJoint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2WeldJoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2RopeJoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2WeldJoint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2Joint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2DistanceJoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2RevoluteJoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2MotorJoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2Joint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2PrismaticJoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2PulleyJoint.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/Joints/b2PulleyJoint.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2Island.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2Island.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2TimeStep.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2ContactManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2Fixture.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2WorldCallbacks.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Dynamics/b2ContactManager.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2BroadPhase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2CollideCircle.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2DynamicTree.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2BroadPhase.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2Collision.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2Distance.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2CollideEdge.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2TimeOfImpact.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2Distance.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2DynamicTree.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2CollidePolygon.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2Collision.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/b2TimeOfImpact.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/Shapes/b2CircleShape.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/Shapes/b2PolygonShape.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/Shapes/b2ChainShape.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/Shapes/b2ChainShape.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/Shapes/b2CircleShape.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/Shapes/b2PolygonShape.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/Shapes/b2EdgeShape.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/Shapes/b2EdgeShape.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Collision/Shapes/b2Shape.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/Box2D.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/CMakeLists.txt" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/MinSizeRel" />
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/Debug" />
           <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/Debug" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/MinSizeRel" />
           <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/RelWithDebInfo" />
           <root url="file://C:/Qt/Qt5.6.0/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
           <root url="file://C:/Qt/Qt5.6.0/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include" />
@@ -38,9 +131,9 @@
           <root url="file://C:/Qt/Qt5.6.0/5.6/mingw49_32/mkspecs/win32-g++" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/MinSizeRel" />
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/Debug" />
           <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/Debug" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/MinSizeRel" />
           <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/RelWithDebInfo" />
           <root url="file://C:/Qt/Qt5.6.0/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include-fixed" />
           <root url="file://C:/Qt/Qt5.6.0/Tools/mingw492_32/lib/gcc/i686-w64-mingw32/4.9.2/include" />
@@ -49,9 +142,9 @@
           <root url="file://C:/Qt/Qt5.6.0/5.6/mingw49_32/mkspecs/win32-g++" />
         </SOURCES>
         <excluded>
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/MinSizeRel/pain2d_automoc.cpp" />
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/Debug/pain2d_automoc.cpp" />
           <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/Release/pain2d_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/Debug/pain2d_automoc.cpp" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/MinSizeRel/pain2d_automoc.cpp" />
           <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/pain2d-743ad4fc/743ad4fc/RelWithDebInfo/pain2d_automoc.cpp" />
         </excluded>
       </library>

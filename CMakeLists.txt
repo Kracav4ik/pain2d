@@ -17,6 +17,9 @@ find_package(Qt5Widgets REQUIRED)
 
 set(EXE_NAME "pain2d")
 
+include(libs/Box2D/CMakeLists.txt)
+include_directories(src libs libs/Box2D)
+
 set(EXE_SOURCES
         src/main.cpp
         src/main.ui
@@ -24,12 +27,10 @@ set(EXE_SOURCES
         src/MainWindow.h
         src/GLOutput.cpp
         src/GLOutput.h
+        ${BOX2D_ALL_SRCS}
         )
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
-
-add_subdirectory(libs/Box2D)
-include_directories(src libs libs/Box2D)
 
 add_executable(${EXE_NAME} ${EXE_SOURCES})
 
