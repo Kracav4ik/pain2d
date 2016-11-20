@@ -26,6 +26,9 @@ set(EXE_SOURCES
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
 
+add_subdirectory(libs/Box2D)
+include_directories(libs libs/Box2D)
+
 add_executable(${EXE_NAME} ${EXE_SOURCES})
 
 target_link_libraries(${EXE_NAME} Qt5::Widgets Qt5::Core)

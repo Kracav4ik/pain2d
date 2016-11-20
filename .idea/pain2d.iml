@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/MainWindow.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/MainWindow.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/Box2D/CMakeLists.txt" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
